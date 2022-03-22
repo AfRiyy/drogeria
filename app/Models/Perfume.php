@@ -8,11 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Perfume extends Model
 {
     use HasFactory;
-
     protected $fillable = [
-
         "name",
         "type",
         "price"
     ];
+    public $timestamps = false;
 }
